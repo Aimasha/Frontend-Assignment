@@ -1,0 +1,106 @@
+ *{
+  box-sizing: border-box;
+ }
+ .app {
+  width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: left;
+  padding: 10px;
+ }
+ .container {
+  align-items: center;
+  background-color: #fefefe;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  text-align: left;
+  padding: 15px;
+  margin: 10px 0;
+ }
+ .radio-tab {
+  background-color: #ebf0fc;
+  width: 48%;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 2%;
+  border: solid 1px #ebf0fc;
+  cursor: pointer;
+ }
+ .radio-tab.selected, .radio-tab:hover{
+  background-color: #dfe8ff;
+  border: solid 1px #739feb;
+ }
+ .flex {
+  display: flex;
+ }
+ .checkbox input {
+  width: auto;
+ }
+ .checkbox .title {
+  display: inline-block;
+  padding-left: 5px;
+ }
+ .content {
+  width: 50%;
+ }
+ .left {
+  text-align: left;
+ }
+.required {
+  color: red;
+}
+ .container .title{
+    font-weight: bold;
+ }
+ input {
+  background-color: #dfe8ff;
+  border: solid 1px #739feb;
+  width: 100%;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+ }
+ select {
+  width: 100%;
+  background-color: #dfe8ff;
+  border: solid 1px #739feb;
+  width: 100%;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+ }
+ .info {
+  font-size: 8px;
+  margin-left: 3px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background-color: #739feb;
+  color: white;
+ }
+.main-card-title {
+  margin-bottom: 5px;
+}
+footer {
+  text-align: right;
+}
+footer button {
+  background: none;
+  border: solid 1px gray;
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+footer button.submit {
+  background-color: #3a4352;
+  color: white;
+}
+footer button:hover {
+  background-color: #739feb;
+}
